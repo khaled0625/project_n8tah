@@ -1,0 +1,43 @@
+{
+    "capitalization": {
+        "rule": "Start sentences with capital letters",
+        "level": "beginner",
+        "examples": [
+            "The cat is big.",
+            "I play football.",
+            "Ali runs fast."
+        ],
+        "error_message": "Remember to start with a capital letter! 🔤"
+    },
+    "punctuation_end": {
+        "rule": "End sentences with punctuation (. ! ?)",
+        "level": "beginner",
+        "examples": [
+            "The cat is big.",
+            "I love this!",
+            "Where are you?"
+        ],
+        "error_message": "Don't forget to end your sentence with a period, exclamation mark, or question mark!"
+    },
+    "subject_verb_agreement": {
+        "rule": "Singular subjects need singular verbs, plural subjects need plural verbs",
+        "level": "intermediate",
+        "examples": [
+            "He plays football",
+            "They play football",
+            "She runs fast",
+            "We run fast"
+        ],
+        "error_message": "Make sure your verb matches your subject"
+    },
+    "homophones": {
+        "rule": "Their/They're/There, Your/You're have different meanings",
+        "level": "advanced",
+        "examples": [
+            "Their book is here (belongs to them)",
+            "They're going home (they are)",
+            "There is a cat (location)"
+        ],
+        "error_message": "These words sound the same but have different meanings!"
+    }
+}

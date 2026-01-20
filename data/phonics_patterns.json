@@ -1,0 +1,120 @@
+{
+    "/ay/": {
+        "pattern": "/ay/",
+        "common_spellings": [
+            "ay",
+            "ai",
+            "a_e"
+        ],
+        "examples": {
+            "ay": [
+                "play",
+                "day",
+                "way",
+                "say"
+            ],
+            "ai": [
+                "rain",
+                "train",
+                "main",
+                "pain"
+            ],
+            "a_e": [
+                "make",
+                "take",
+                "cake",
+                "late"
+            ]
+        },
+        "difficulty": "beginner",
+        "tip": "The /ay/ sound is usually spelled 'ay' at the end of a word"
+    },
+    "/ee/": {
+        "pattern": "/ee/",
+        "common_spellings": [
+            "ee",
+            "ea",
+            "e_e"
+        ],
+        "examples": {
+            "ee": [
+                "see",
+                "tree",
+                "bee",
+                "free"
+            ],
+            "ea": [
+                "read",
+                "eat",
+                "seat",
+                "teach"
+            ],
+            "e_e": [
+                "these",
+                "Pete"
+            ]
+        },
+        "difficulty": "beginner",
+        "tip": "The /ee/ sound can be spelled many ways - 'ee' and 'ea' are most common"
+    },
+    "/igh/": {
+        "pattern": "/igh/",
+        "common_spellings": [
+            "igh",
+            "i_e",
+            "y"
+        ],
+        "examples": {
+            "igh": [
+                "high",
+                "night",
+                "light",
+                "fight"
+            ],
+            "i_e": [
+                "like",
+                "bike",
+                "time",
+                "kite"
+            ],
+            "y": [
+                "my",
+                "fly",
+                "try",
+                "sky"
+            ]
+        },
+        "difficulty": "intermediate",
+        "tip": "The long 'i' sound has different spellings in different positions"
+    },
+    "/oa/": {
+        "pattern": "/oa/",
+        "common_spellings": [
+            "oa",
+            "o_e",
+            "ow"
+        ],
+        "examples": {
+            "oa": [
+                "boat",
+                "coat",
+                "road",
+                "goat"
+            ],
+            "o_e": [
+                "bone",
+                "home",
+                "note",
+                "hope"
+            ],
+            "ow": [
+                "show",
+                "know",
+                "grow",
+                "flow"
+            ]
+        },
+        "difficulty": "beginner",
+        "tip": "The long 'o' sound can be spelled 'oa', 'o_e', or 'ow'"
+    }
+}
