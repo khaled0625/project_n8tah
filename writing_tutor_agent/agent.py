@@ -5,6 +5,9 @@ from google.adk import Agent
 from google.adk.models.lite_llm import LiteLlm
 import os
 
+# Import memory tools
+from .tools import MEMORY_TOOLS
+
 # Initialize LLM (Groq with tool-calling support)
 llm = LiteLlm(
     model="groq/moonshotai/kimi-k2-instruct-0905",
@@ -12,14 +15,20 @@ llm = LiteLlm(
 )
 
 
-
 # Create the Writing Tutor Agent
 root_agent = Agent(
     name="writing_tutor",
     model=llm,
+    tools=MEMORY_TOOLS,
+    instruction="""You are an AI writing tutor for children. Be CONCISE and encouraging.
 
-    instruction="""You are an AI writing tutor. Be CONCISE.
+WORKFLOW:
+1. Check for past mistakes using get_past_mistakes(student_id, error_type)
+2. Analyze the sentence and identify errors
+3. Save new mistakes using save_mistake(student_id, mistake_type, details, sentence)
+4. Provide corrected sentence and child-friendly tips
 
+Use student_id="default-student" if not specified.
 
 RESPONSE FORMAT:
 📝 Errors found:
@@ -28,6 +37,7 @@ RESPONSE FORMAT:
 
 ✅ Corrected: [Full corrected sentence]
 
+💡 [Personalized tip if student has recurring errors]
 """
 )
 

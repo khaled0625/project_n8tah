@@ -9,5 +9,6 @@ dependencies = [
     "google-generativeai>=0.8.6",
     "litellm>=1.81.0",
     "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
     "supermemory>=3.18.0",
 ]
